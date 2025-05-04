@@ -26,7 +26,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 5vh;
+
     font-size: 2rem;
 }
 
@@ -60,7 +60,7 @@ body{
     align-items: center;
     justify-content: center;
     gap: 5rem;
-    margin-top: 5vh;
+
 }
 
 .player{
@@ -91,4 +91,40 @@ body{
     height: 50px;
     width: 200px;
     background-color: #dda15e;
+}
+
+.play-again{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    background-color: #606c38;
+    color: white;
+    font-size: 2rem;
+    margin-top: 5vh;
+}
+.play-again:hover{
+    cursor: pointer;
+    background-color: #dda15e;
+    transition: 0.3s;
+}
+
+.play-again button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    background-color: transparent;
+    color: white;
+    font-size: 2rem;
+    border: none;
+}
+.play-again button:hover{
+    cursor: pointer;
+    background-color: #dda15e;
+    transition: 0.3s;
 }
