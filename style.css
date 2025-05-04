@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size : 2rem;
+    align-self: center;
+    justify-self: center;
+    margin: 10px 0 10px 0;
+}
+
